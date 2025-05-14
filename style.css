@@ -1,0 +1,63 @@
+/*resetando margem e definindo fonte para a pagina toda*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*definindo fundo da pagina com um gradiente e centralizando*/
+body{
+    height: 100vh;
+    background: linear-gradient(135deg, #07a3b2, #d9ecc7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container{
+    background: white;
+    padding: 40px 30px;
+    border-radius: 25px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.7);
+}
+/*estilizando o título (login)*/
+.login-container h2{
+    margin-bottom: 20px;
+    color: #333;
+}
+/*Estilizando os campos de entrada (usuário e senha)*/
+.login-container input{
+    width: 100%;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border:1px solid #ccc;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+.login-container button{/*estilizando botão*/
+    color: #333;
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border:none;
+    border-radius: 12px;
+    background: rgb(216, 216, 216);
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.login-container button:hover{ /*estilizando a animacao*/
+    background: rgb(158, 157, 157);
+}
+.login-container p{ /*Estilizando o esqueceu senha*/
+    margin-top: 15px;
+    font-size: 12px;
+    color: #333;
+}
+
+
+/* ------------------------------ POKEDEX ------------------------------*/
