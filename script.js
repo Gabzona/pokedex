@@ -19,6 +19,10 @@ botaoBuscar.addEventListener("click", async () => {
         document.getElementById("nome").textContent = dados.name;
         document.getElementById("numero").textContent = `${dados.id}`;
         document.getElementById("imagem").src = dados.sprites.front_default;
+
+        //exibir tipo de pokemon
+
+        
     } catch(erro){
         alert(erro.message);
     }
